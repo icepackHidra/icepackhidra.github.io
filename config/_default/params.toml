@@ -42,7 +42,7 @@ mainSections = ["posts"]
   #showViews = true
   #showLikes = true
   showDateUpdated = false
-  showAuthor = true
+  showAuthor = false
   showHero = true
   heroStyle = "basic" # valid options: basic, big, background
   showBreadcrumbs = true
@@ -60,7 +60,7 @@ mainSections = ["posts"]
   showAuthorsBadges = false 
   showWordCount = true
   showSummary = true
-  sharingLinks = [ "linkedin", "twitter", "whatsapp", "pinterest", "reddit", "facebook", "email"]
+  sharingLinks = false
 
 [list]
   showBreadcrumbs = false
