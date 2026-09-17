@@ -11,9 +11,10 @@ html:not(.dark) body {
   background-color: #d9d6cd !important; /* muted warm grey, gentle retro feel */
 }
 
-/* Profile image (//*[@id="main-content"]/article/header/img) = the wide dragon,
-   shown whole (not cropped to a circle), and not clickable/zoomable. */
-#main-content article header img {
+/* Homepage profile image = the wide dragon (targeted by its h-36 w-36 classes so
+   it does NOT affect the small author avatar inside article headers).
+   Shown whole (not cropped to a circle), and not clickable/zoomable. */
+#main-content article header img.h-36.w-36 {
   height: 12.5rem !important; /* slightly smaller again */
   width: auto !important;     /* follow the dragon's aspect ratio */
   max-width: 100%;
@@ -21,6 +22,25 @@ html:not(.dark) body {
   object-fit: contain;
   pointer-events: none;       /* disable click-to-zoom */
   cursor: default;
+}
+
+/* Author block at the top of each article (#single_header > div[2]) — much smaller */
+#single_header .author {
+  font-size: 0.8rem;
+  align-items: center;
+}
+#single_header .author img {
+  height: 1.9rem !important;   /* 96px -> ~30px */
+  width: auto !important;
+  border-radius: 0 !important;
+  object-fit: contain;
+  margin-right: 0.5rem !important;
+}
+#single_header .author .text-sm {
+  font-size: 0.68rem !important; /* bio */
+}
+#single_header .author .text-2xl {
+  font-size: 0.85rem !important; /* social icons */
 }
 
 /* "hidra" title (//*[@id="main-content"]/article/header/h1) = very simple / minimalist */
