@@ -1,6 +1,6 @@
 ---
-title: "Article de test"
-summary: "Un premier article de test, prêt à être modifié. Remplace ce texte par le tien."
+title: "Test article"
+summary: "A first test article, ready to be edited. Replace this text with your own."
 categories: ["Post", "Blog"]
 tags: ["test"]
 #externalUrl: ""
@@ -9,17 +9,16 @@ date: 2026-09-17
 draft: false
 ---
 
-## Titre de section
+This is a test article. Feel free to edit the title, summary, categories and the
+text below. The image only shows up inside the article — not on the post list.
 
-Ceci est un article de test. Tu peux modifier librement le titre, le résumé,
-les catégories et le texte ci-dessous. L'image en haut est `featured.png` dans
-le dossier de l'article — remplace-la par ce que tu veux.
+![The dragon has three heads](dragon.png)
 
-## Une autre section
+## Section title
 
-Écris ton contenu ici. Le Markdown fonctionne : **gras**, *italique*,
-[liens](https://icepackhidra.github.io/), listes, etc.
+Write your content here. Markdown works: **bold**, *italic*,
+[links](https://icepackhidra.github.io/), lists, and so on.
 
-- Premier point
-- Deuxième point
-- Troisième point
+- First point
+- Second point
+- Third point

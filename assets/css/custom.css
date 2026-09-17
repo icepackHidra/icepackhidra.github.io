@@ -14,7 +14,7 @@ html:not(.dark) body {
 /* Profile image (//*[@id="main-content"]/article/header/img) = the wide dragon,
    shown whole (not cropped to a circle), and not clickable/zoomable. */
 #main-content article header img {
-  height: 13.5rem !important; /* slightly smaller */
+  height: 12.5rem !important; /* slightly smaller again */
   width: auto !important;     /* follow the dragon's aspect ratio */
   max-width: 100%;
   border-radius: 0 !important;
