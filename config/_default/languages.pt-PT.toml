@@ -22,6 +22,5 @@ dateFormat = "2 January 2006"
   bio = "A little bit about you"
    links = [
      { link = "https://icepackhidra.github.io/" },
-     { github = "https://github.com/icepackhidra" },
-     { x-twitter = "https://twitter.com/burufugu" }
+     { github = "https://github.com/icepackhidra" }
    ]
