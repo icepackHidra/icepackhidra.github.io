@@ -6,9 +6,9 @@ body {
   font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
-/* Soft retro pastel grey background (light mode only, keep dark mode intact) */
+/* Soft beige cream background (light mode only, keep dark mode intact) */
 html:not(.dark) body {
-  background-color: #d9d6cd !important; /* muted warm grey, gentle retro feel */
+  background-color: #f5eeda !important; /* warm beige cream */
 }
 
 /* Homepage profile image = the wide dragon (targeted by its h-36 w-36 classes so
