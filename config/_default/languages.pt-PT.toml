@@ -1,7 +1,7 @@
 languageCode = "pt-PT"
 languageName = "Portuguese"
 weight = 2
-title = "Gray Blowfish"
+title = "hidra"
 contentDir = 'content/pt'
 
 
@@ -9,14 +9,14 @@ contentDir = 'content/pt'
   displayName = "PT"
   isoCode = "pt-PT"
   rtl = false
-  # logo = "img/logo.png"
+  logo = "img/logo.png"
   description = "O meu website awesome"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 dateFormat = "2 January 2006"
 
 [params.author]
-  name = "Gray Blowfish"
+  name = "hidra"
   image = "img/avatar.png"
   headline = "Um perfil simples com os meus links"
   bio = "A little bit about you"

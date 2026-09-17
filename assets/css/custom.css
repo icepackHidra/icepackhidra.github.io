@@ -1,0 +1,13 @@
+/* hidra — minimalist tweaks */
+
+/* Very simple, clean system font everywhere */
+html,
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* Keep the header logo compact (not too big) */
+header img {
+  max-height: 40px;
+  width: auto;
+}
