@@ -17,9 +17,6 @@ contentDir = 'content/en'
 [params.author]
   name = "hidra"
   image = "img/logo.png"
-  headline = "This is my very simple profile website with my links"
+  headline = "welcome to my blog!"
   bio = "A little bit about you"
-   links = [
-     { link = "https://icepackhidra.github.io/" },
-     { github = "https://github.com/icepackhidra" }
-   ]
+  links = []
