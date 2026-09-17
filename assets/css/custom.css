@@ -6,9 +6,9 @@ body {
   font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
-/* Soft beige cream background (light mode only, keep dark mode intact) */
+/* Deeper cream background (light mode only, keep dark mode intact) */
 html:not(.dark) body {
-  background-color: #f5eeda !important; /* warm beige cream */
+  background-color: #ecdec2 !important; /* deeper, creamier beige */
 }
 
 /* Homepage profile image = the wide dragon (targeted by its h-36 w-36 classes so
@@ -24,9 +24,22 @@ html:not(.dark) body {
   cursor: default;
 }
 
-/* "hidra" title (//*[@id="main-content"]/article/header/h1) = very simple / minimalist */
+/* "hidra" pseudo + single article title = simple/minimalist, pastel pink */
 #main-content article header h1 {
   font-weight: 400 !important;   /* not bold */
   font-size: 1.9rem !important;
   letter-spacing: 0.02em;
+  color: #d98cb1 !important;     /* pastel pink */
+}
+
+/* Article titles in lists (posts page) and the homepage "recent" widget = pastel pink */
+article[class*="article-link"] header a,
+article[class*="article-link"] header a h2,
+article[class*="article-link"] header a h3 {
+  color: #d98cb1 !important;     /* pastel pink */
+}
+
+/* Remove the "Recent" heading on the homepage (//*[@id="main-content"]/section/h2) */
+#main-content > section > h2 {
+  display: none;
 }
