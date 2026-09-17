@@ -43,3 +43,8 @@ article[class*="article-link"] header a h3 {
 #main-content > section > h2 {
   display: none;
 }
+
+/* Post list date/year group headings (e.g. "2026") → same pastel pink as titles */
+#main-content .space-y-10 > h2 {
+  color: #d98cb1 !important;
+}
