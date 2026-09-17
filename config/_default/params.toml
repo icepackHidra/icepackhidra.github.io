@@ -7,6 +7,7 @@
 
 colorScheme = "hidra"
 defaultAppearance = "light" # valid options: light or dark
+disableImageOptimization = true # keep the wide dragon logo uncropped
 autoSwitchAppearance = true
 
 enableSearch = true
