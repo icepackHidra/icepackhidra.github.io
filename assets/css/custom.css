@@ -6,19 +6,21 @@ body {
   font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
-/* Soft pastel background for the site (light mode only, keep dark mode intact) */
+/* Soft retro pastel grey background (light mode only, keep dark mode intact) */
 html:not(.dark) body {
-  background-color: #f5efe4 !important; /* warm cream, pairs with the gold dragon */
+  background-color: #d9d6cd !important; /* muted warm grey, gentle retro feel */
 }
 
 /* Profile image (//*[@id="main-content"]/article/header/img) = the wide dragon,
-   shown whole (not cropped to a circle) and bigger than the old fish. */
+   shown whole (not cropped to a circle), and not clickable/zoomable. */
 #main-content article header img {
-  height: 15rem !important;   /* bigger than the ~144px fish */
+  height: 13.5rem !important; /* slightly smaller */
   width: auto !important;     /* follow the dragon's aspect ratio */
   max-width: 100%;
   border-radius: 0 !important;
   object-fit: contain;
+  pointer-events: none;       /* disable click-to-zoom */
+  cursor: default;
 }
 
 /* "hidra" title (//*[@id="main-content"]/article/header/h1) = very simple / minimalist */
